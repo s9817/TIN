@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubezpieczenia PJA-Szczegóły klient</title>
+    <link rel="stylesheet" href="C:\Users\Dell\Desktop\PJATK\SEMESTR7\TIN\Projekt_TIN\PlikiProjektu\style.css" />
+</head>
+<body>  
+    <header>
+        <h1>
+            Ubezpieczenia PJA
+        </h1>
+        <img src="images/logo.jpg" alt="Ubezpieczenia LOGO">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/Dell/Desktop/PJATK/SEMESTR7/TIN/Projekt_TIN/PlikiProjektu/index.html">Strona główna</a></li>
+            <li><a href="file:///C:/Users/Dell/Desktop/PJATK/SEMESTR7/TIN/Projekt_TIN/PlikiProjektu/pages/customer-list.html" class="active">Klienci</a></li>
+            <li><a href="file:///C:/Users/Dell/Desktop/PJATK/SEMESTR7/TIN/Projekt_TIN/PlikiProjektu/pages/pracownicy-list.html">Pracownicy</a></li>
+            <li><a href="C:\Users\Dell\Desktop\PJATK\SEMESTR7\TIN\Projekt_TIN\PlikiProjektu\pages\polisy.html" >Polisy</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Szczegóły klient</h2>
+        <form class="form">
+            <!--<div class="form-group"> -->
+                <label for="nazwaKlienta">Nazwa klienta:</label>
+                <input type="text" name="nazwaKlienta" value="PJATK" id="nazwaKlienta" disabled >
+            <!--</div> -->
+            <!--<div class="form-group"> -->
+                <label for="nip">NIP:</label>
+                <input type="text" name="nip" value="5262160983" id="nip" disabled>
+            <!--</div> -->
+            <!--<div class="form-group"> -->
+                <label for="pesel">PESEL:</label>
+                <input type="text" name="pesel" value="" id="pesel" disabled>
+            <!--</div> -->
+            <!--<div class="form-group"> -->
+                <label for="email">e-mail:</label>
+                <input type="text" name="email" value="dziekanat@pjwstk.edu.pl" id="email" disabled>
+            <!--</div> -->
+            <div class="form-buttons">
+                <p>Edytuj</p>    
+            </div> 
+        </form>
+        <h2>Pojazdy klienta </h2>
+        <table class="table-list"> 
+            <thead>
+                <tr>
+                    <th>LP </th><th>Marka</th><th>Model</th><th>Nr rej</th><th>VIN</th><th>Akcja</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td><td>Toyota</td><td>Avenssis</td><td>WE666WE</td><td>1FTYR10DX3PB45558</td>
+                    <td>
+                        <ul class="list-actions">
+                            <li>
+                                <a href="file:///C:/Users/Dell/Desktop/PJATK/SEMESTR7/TIN/Projekt_TIN/PlikiProjektu/pages/pojazdy-szczegoly.html" 
+                                    class="list-actions-button-details">Szczegóły</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-edit">Edytuj</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-delete">Usuń</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td><td>Lexus</td><td>IX450</td><td>WE987XD</td><td>2C3CDXCTXDH599186</td>
+                    <td>
+                        <ul class="list-actions">
+                            <li>
+                                <a href="" class="list-actions-button-details">Szczegóły</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-edit">Edytuj</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-delete">Usuń</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td><td>BMW</td><td>X5</td><td>W0GOKU</td><td>1D7HU18217J541278</td>
+                    <td>
+                        <ul class="list-actions">
+                            <li>
+                                <a href="" class="list-actions-button-details">Szczegóły</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-edit">Edytuj</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-delete">Usuń</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button-div">
+            <ul class="list-actions">
+                <li>
+                    <a href="" class="button-add">Nowy pojazd</a>
+                </li>
+                <li>
+                    <a href="" class="button-add">Nowa polisa</a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/Dell/Desktop/PJATK/SEMESTR7/TIN/Projekt_TIN/PlikiProjektu/pages/customer-list.html" class="list-actions-button-details">Powrót</a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+</body>
+</html>
